@@ -1,0 +1,44 @@
+{
+  "_from": "bpu@0.0.13",
+  "_id": "bpu@0.0.13",
+  "_inBundle": false,
+  "_integrity": "sha512-+Vmbl6xGp56MVzcXujka4PIQFZ9KObAg899eNYhO96lgPc8JdeU+D7gGxFuhBma5n+pUDLQR8ZNL/I3/r6zrdw==",
+  "_location": "/bpu",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "bpu@0.0.13",
+    "name": "bpu",
+    "escapedName": "bpu",
+    "rawSpec": "0.0.13",
+    "saveSpec": null,
+    "fetchSpec": "0.0.13"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bpu/-/bpu-0.0.13.tgz",
+  "_shasum": "f32519780b46b4153a2500add345a194738722eb",
+  "_spec": "bpu@0.0.13",
+  "_where": "/Users/lilong/Works/Planaria/bitwork",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "bitcoind-rpc": "^0.8.1",
+    "bsv": "^1.2.0",
+    "dotenv": "^8.0.0"
+  },
+  "deprecated": false,
+  "description": "Bitcoin Processing Unit",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "bpu",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "version": "0.0.13"
+}
